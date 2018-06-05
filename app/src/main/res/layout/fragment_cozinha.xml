@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CozinhaFragment">
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b9b9ff"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp">
+
+            <ImageView
+                android:id="@+id/lampada_acesa"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lampada_acesa"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/lampada_apagada"
+                android:layout_width="100dp"
+                android:layout_height="260dp"
+                android:src="@drawable/lampada_apagada"
+                android:layout_marginStart="00dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="90dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:textSize="25dp"
+            android:textColor="@color/corTexto"
+            android:text="Lampada Cozinha" />
+
+
+        <TextView
+            android:id="@+id/txtTemperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:textSize="20dp"
+            android:textColor="@color/corTexto"
+            android:text="Temperatura Ambiente - >" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/txtTemperatura"
+            android:layout_toEndOf="@+id/txtTitulo"
+            android:layout_toRightOf="@+id/txtTitulo"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <Button
+                android:id="@+id/btnLigarLampada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="200dp"
+
+                android:layout_marginLeft="82dp"
+                android:layout_marginStart="90dp"
+                android:background="@color/colorBotaoLIGAR"
+                android:text="@string/btn_Ligado"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDesligarLampada"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/btnLigarLampada"
+
+                android:layout_marginEnd="71dp"
+                android:layout_marginRight="74dp"
+                android:background="@color/colorBotaoDESLIGAR"
+                android:text="@string/btn_Desligar"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

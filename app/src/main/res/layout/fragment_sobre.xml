@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SobreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="2dp"
+        android:text=" Desenvolvedores:   "
+
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="40dp"
+        android:text=" Guilherme de Freitas Ornelas    RA:00178443
+        "
+
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="70dp"
+        android:text=" Rodrigo Willian Lopes                 RA:00177190
+        "
+
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="100dp"
+        android:text=" Roger Antonio                               RA:0017
+        "
+
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="230dp"
+        android:text=" Projeto em fase de desenvolvimento, focado no trabalho do 4º Bimestre da Materia de Topicos Especiais em Sistemas de Informação
+
+        "
+
+        android:textSize="16sp"
+        android:textColor="@color/colorBotaoDESLIGAR"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
